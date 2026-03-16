@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_itinerary_weeks",
+  "info": { "displayName": "Weeks" },
+  "options": {},
+  "attributes": {
+    "first": { "type": "boolean" },
+    "second": { "type": "boolean" },
+    "third": { "type": "boolean" },
+    "fourth": { "type": "boolean" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_itinerary_meta_tags",
+  "info": { "displayName": "Meta Tags" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "titleES": { "type": "string" },
+    "description": { "type": "text" },
+    "descriptionES": { "type": "text" },
+    "keywords": { "type": "json" },
+    "keywordsES": { "type": "json" }
+  }
+}

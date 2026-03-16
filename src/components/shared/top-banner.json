@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_itinerary_top_banners",
+  "info": {
+    "displayName": "Top Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleES": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "descriptionES": {
+      "type": "text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner-image"
+    }
+  }
+}

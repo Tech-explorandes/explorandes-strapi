@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_itinerary_obj_clientes",
+  "info": { "displayName": "Objeto Cliente" },
+  "options": {},
+  "attributes": {
+    "createdBy": { "type": "string" },
+    "clienteId": { "type": "string" }
+  }
+}

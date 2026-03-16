@@ -1,0 +1,235 @@
+{
+  "kind": "collectionType",
+  "collectionName": "itineraries",
+  "info": {
+    "singularName": "itinerary",
+    "pluralName": "itineraries",
+    "displayName": "Itinerary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bookTitleES": {
+      "type": "string"
+    },
+    "updatedAtSanity": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "passenger": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.passenger"
+    },
+    "b2b": {
+      "type": "boolean"
+    },
+    "categoryId": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "objCliente": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.obj-cliente"
+    },
+    "bookTitle": {
+      "type": "string"
+    },
+    "notIncludedES": {
+      "type": "json"
+    },
+    "tipoTemplate": {
+      "type": "string"
+    },
+    "extraInformation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.bilingual-text"
+    },
+    "included": {
+      "type": "json"
+    },
+    "galleryTitle": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "listOfDepartureDates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.departure-date"
+    },
+    "nameClient": {
+      "type": "string"
+    },
+    "whatToTakeES": {
+      "type": "json"
+    },
+    "slugES": {
+      "type": "uid",
+      "targetField": "nombre"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "destino": {
+      "type": "string"
+    },
+    "whatToTake": {
+      "type": "json"
+    },
+    "diasItinerario": {
+      "type": "integer"
+    },
+    "daysActivitiesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.day-activity"
+    },
+    "clienteId": {
+      "type": "string"
+    },
+    "productIds": {
+      "type": "json"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nombre"
+    },
+    "color": {
+      "type": "string"
+    },
+    "season": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.season"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "usuario": {
+      "type": "string"
+    },
+    "includedES": {
+      "type": "json"
+    },
+    "availableDaysES": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "notIncluded": {
+      "type": "json"
+    },
+    "sanityId": {
+      "type": "string"
+    },
+    "itinerary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.bilingual-text"
+    },
+    "availableDays": {
+      "type": "string"
+    },
+    "updatedByUserId": {
+      "type": "string"
+    },
+    "createdAtSanity": {
+      "type": "string"
+    },
+    "priceTag": {
+      "type": "decimal"
+    },
+    "destinationId": {
+      "type": "string"
+    },
+    "galleryTitleES": {
+      "type": "string"
+    },
+    "imagesByDay": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-by-day"
+    },
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.top-banner"
+    },
+    "updateAtPermits": {
+      "type": "string"
+    },
+    "editProductServices": {
+      "type": "string"
+    },
+    "tipoSalida": {
+      "type": "json"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta-tags"
+    },
+    "touristType": {
+      "type": "json"
+    },
+    "categoriaProducto": {
+      "type": "string"
+    },
+    "destinations": {
+      "type": "json"
+    },
+    "days": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "typeES": {
+      "type": "string"
+    },
+    "incluyeIngles": {
+      "type": "json"
+    },
+    "noIncluye": {
+      "type": "json"
+    },
+    "llevar": {
+      "type": "json"
+    },
+    "noIncluyeIngles": {
+      "type": "json"
+    },
+    "llevarIngles": {
+      "type": "json"
+    },
+    "incluye": {
+      "type": "json"
+    },
+    "estadoItinerario": {
+      "type": "string"
+    },
+    "diasDisponible": {
+      "type": "json"
+    },
+    "isPublishedSanity": {
+      "type": "boolean"
+    },
+    "weeks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.weeks"
+    }
+  }
+}

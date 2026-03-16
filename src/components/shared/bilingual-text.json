@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_itinerary_bilingual_texts",
+  "info": { "displayName": "Bilingual Text" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "titleES": { "type": "string" },
+    "description": { "type": "text" },
+    "descriptionES": { "type": "text" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_itinerary_day_activities",
+  "info": {
+    "displayName": "Day Activity"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleES": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "descriptionES": {
+      "type": "text"
+    },
+    "map": {
+      "type": "string"
+    },
+    "mobilitys": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mobility"
+    }
+  }
+}

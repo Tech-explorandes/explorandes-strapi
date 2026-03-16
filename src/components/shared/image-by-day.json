@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_itinerary_images_by_day",
+  "info": { "displayName": "Image By Day" },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string" },
+    "productId": { "type": "string" },
+    "day": { "type": "integer" }
+  }
+}

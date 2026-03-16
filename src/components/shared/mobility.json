@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_itinerary_mobilities",
+  "info": { "displayName": "Mobility" },
+  "options": {},
+  "attributes": {
+    "distanceDouble": { "type": "decimal" },
+    "distanceLong": { "type": "integer" },
+    "type": { "type": "string" },
+    "time": { "type": "string" }
+  }
+}

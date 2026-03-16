@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_itinerary_banner_images",
+  "info": { "displayName": "Banner Image" },
+  "options": {},
+  "attributes": {
+    "alt": { "type": "string" },
+    "src": { "type": "string" },
+    "srcMobile": { "type": "string" }
+  }
+}

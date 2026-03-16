@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_itinerary_passengers",
+  "info": { "displayName": "Passenger" },
+  "options": {},
+  "attributes": {
+    "max": { "type": "integer" },
+    "min": { "type": "integer" },
+    "mas": { "type": "string" }
+  }
+}

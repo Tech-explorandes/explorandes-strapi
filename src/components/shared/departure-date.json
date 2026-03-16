@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_itinerary_departure_dates",
+  "info": { "displayName": "Departure Date" },
+  "options": {},
+  "attributes": {
+    "date": { "type": "string" },
+    "idsFilesHijos": { "type": "json" },
+    "idFilePadre": { "type": "string" },
+    "isOpen": { "type": "boolean" },
+    "reservations": { "type": "integer" },
+    "paxReservations": { "type": "integer" },
+    "permitsAvailable": { "type": "integer" }
+  }
+}
